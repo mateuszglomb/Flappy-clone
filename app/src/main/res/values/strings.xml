@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flappy Clone</string>
+    <string name="tap_to_start">Dotknij aby zacząć</string>
+    <string name="game_over">Koniec gry!</string>
+    <string name="score">Wynik</string>
+    <string name="best">Najlepszy</string>
+    <string name="tap_to_restart">Dotknij aby zagrać ponownie</string>
+    <string name="get_ready">Przygotuj się!</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sky gradient colors -->
+    <color name="sky_top">#FF87CEEB</color>
+    <color name="sky_bottom">#FF4DA6FF</color>
+    
+    <!-- Bird colors -->
+    <color name="bird_body">#FFFFD700</color>
+    <color name="bird_beak">#FFFF6600</color>
+    <color name="bird_eye">#FF000000</color>
+    <color name="bird_eye_white">#FFFFFFFF</color>
+    
+    <!-- Pipe colors -->
+    <color name="pipe_main">#FF2E7D32</color>
+    <color name="pipe_highlight">#FF4CAF50</color>
+    <color name="pipe_shadow">#FF1B5E20</color>
+    <color name="pipe_cap">#FF388E3C</color>
+    
+    <!-- Ground color -->
+    <color name="ground">#FFDEB887</color>
+    <color name="ground_dark">#FFC4A35A</color>
+    
+    <!-- UI colors -->
+    <color name="text_white">#FFFFFFFF</color>
+    <color name="text_shadow">#AA000000</color>
+    <color name="overlay_dark">#88000000</color>
+    
+    <!-- Theme colors -->
+    <color name="colorPrimary">#FF4DA6FF</color>
+    <color name="colorPrimaryDark">#FF2196F3</color>
+    <color name="colorAccent">#FFFFD700</color>
+</resources>
