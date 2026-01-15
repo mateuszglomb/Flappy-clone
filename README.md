@@ -42,3 +42,4 @@ APK znajdziesz w `app/build/outputs/apk/debug/app-debug.apk`
 ## 📄 Licencja
 
 MIT
+# Flappy-clone
