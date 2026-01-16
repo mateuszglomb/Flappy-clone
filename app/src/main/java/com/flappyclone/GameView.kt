@@ -291,11 +291,12 @@ class GameView(context: Context) : SurfaceView(context), SurfaceHolder.Callback 
         
         // Najlepszy wynik
         if (scoreManager.bestScore > 0) {
+            subtitlePaint.alpha = 180
             canvas.drawText(
                 "Najlepszy wynik: ${scoreManager.bestScore}",
                 screenWidth / 2f,
                 screenHeight * 0.75f,
-                subtitlePaint.apply { alpha = 180 }
+                subtitlePaint
             )
         }
     }
@@ -330,44 +331,46 @@ class GameView(context: Context) : SurfaceView(context), SurfaceHolder.Callback 
         canvas.drawRoundRect(panelRect, 30f, 30f, panelPaint)
         
         // Tytuł "Koniec gry!"
+        titlePaint.textSize = screenWidth * 0.08f
         canvas.drawText(
             "Koniec gry!",
             screenWidth / 2f,
             panelTop + panelHeight * 0.2f,
-            titlePaint.apply { textSize = screenWidth * 0.08f }
+            titlePaint
         )
         
         // Wynik
+        subtitlePaint.textSize = screenWidth * 0.06f
+        subtitlePaint.alpha = 255
         canvas.drawText(
             "Wynik: ${scoreManager.currentScore}",
             screenWidth / 2f,
             panelTop + panelHeight * 0.5f,
-            subtitlePaint.apply { 
-                textSize = screenWidth * 0.06f 
-                alpha = 255
-            }
+            subtitlePaint
         )
         
         // Najlepszy wynik
         val bestText = if (scoreManager.isNewBest) "Nowy rekord!" else "Najlepszy: ${scoreManager.bestScore}"
         val bestPaint = if (scoreManager.isNewBest) goldPaint else subtitlePaint
         
+        bestPaint.textSize = screenWidth * 0.05f
         canvas.drawText(
             bestText,
             screenWidth / 2f,
             panelTop + panelHeight * 0.7f,
-            bestPaint.apply { textSize = screenWidth * 0.05f }
+            bestPaint
         )
         
         // "Dotknij aby zagrać ponownie"
         val alpha = ((kotlin.math.sin(menuAnimTimer.toDouble()) + 1) / 2 * 150 + 105).toInt()
         subtitlePaint.alpha = alpha
         
+        subtitlePaint.textSize = screenWidth * 0.045f
         canvas.drawText(
             "Dotknij aby zagrać ponownie",
             screenWidth / 2f,
             screenHeight * 0.75f,
-            subtitlePaint.apply { textSize = screenWidth * 0.045f }
+            subtitlePaint
         )
         
         // Aktualizacja animacji
