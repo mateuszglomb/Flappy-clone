@@ -1,45 +1,38 @@
-# Flappy Clone 🐤
+# Flappy Clone
 
-Klon gry Flappy Bird na Androida napisany w Kotlin.
+Prosta gra na Androida inspirowana Flappy Bird. Projekt powstał jako nauka programowania w Kotlinie.
 
-## 🎮 Funkcje
+## O grze
 
-- Ptak z fizyką i animacją skrzydeł
-- Losowo generowane przeszkody (rury)
-- System punktacji z zapisem najlepszego wyniku
-- Pełnoekranowy tryb gry
-- Polskie teksty UI
+Sterujesz żółtym ptakiem - dotknij ekran żeby podskoczyć i unikaj zielonych rur. Za każdą minioną rurę dostajesz punkt. Gra zapamiętuje twój najlepszy wynik.
 
-## 📱 Wymagania
+## Jak zainstalować
 
-- Android 7.0 (API 24) lub nowszy
+1. Wejdź w zakładkę **Actions** na GitHubie
+2. Pobierz plik `flappy-clone-debug.zip` 
+3. Rozpakuj i prześlij APK na telefon
+4. Zainstaluj (może być potrzebne włączenie "nieznanych źródeł")
 
-## 🚀 Instalacja
+## Wymagania
 
-### Pobierz APK
+Android 7.0 lub nowszy
 
-1. Przejdź do [Actions](../../actions)
-2. Kliknij najnowszy workflow "Build Android APK"
-3. Pobierz `flappy-clone-debug` z sekcji Artifacts
+## Budowanie ze źródeł
 
-### Zbuduj samodzielnie
-
-```bash
-git clone https://github.com/YOUR_USERNAME/Flappy_clone.git
-cd Flappy_clone
+```
+git clone https://github.com/mateuszglomb/Flappy-clone.git
+cd Flappy-clone
 ./gradlew assembleDebug
 ```
 
-APK znajdziesz w `app/build/outputs/apk/debug/app-debug.apk`
+APK pojawi się w `app/build/outputs/apk/debug/`
 
-## 🎯 Jak grać
+## Technologie
 
-1. Dotknij ekranu aby ptak skoczył
-2. Omijaj rury
-3. Zdobywaj punkty za każdą minioną rurę
-4. Pobij swój rekord!
+- Kotlin
+- Android SurfaceView
+- Canvas API
 
-## 📄 Licencja
+---
 
-MIT
-# Flappy-clone
+Projekt edukacyjny, kod otwarty.
