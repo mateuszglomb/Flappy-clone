@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#4DA6FF"
+        android:pathData="M24,24m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0"/>
+    
+    <!-- Bird body -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M24,24m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"/>
+    
+    <!-- Eye white -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,21m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"/>
+    
+    <!-- Eye pupil -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M29,21m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    
+    <!-- Beak -->
+    <path
+        android:fillColor="#FF6600"
+        android:pathData="M34,24 L42,26 L34,30 Z"/>
+    
+</vector>
