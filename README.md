@@ -1,33 +1,33 @@
 # Flappy Clone
 
-Prosta gra na Androida inspirowana Flappy Bird. Projekt powstał jako nauka programowania w Kotlinie.
+A simple Android game inspired by Flappy Bird. This project was created as a Kotlin programming learning exercise.
 
-## O grze
+## About the Game
 
-Sterujesz żółtym ptakiem - dotknij ekran żeby podskoczyć i unikaj zielonych rur. Za każdą minioną rurę dostajesz punkt. Gra zapamiętuje twój najlepszy wynik.
+Control a yellow bird - tap the screen to jump and avoid the green pipes. You earn a point for each pipe you pass. The game saves your best score.
 
-## Jak zainstalować
+## How to Install
 
-1. Wejdź w zakładkę **Actions** na GitHubie
-2. Pobierz plik `flappy-clone-debug.zip` 
-3. Rozpakuj i prześlij APK na telefon
-4. Zainstaluj (może być potrzebne włączenie "nieznanych źródeł")
+1. Go to the **Actions** tab on GitHub
+2. Download the `flappy-clone-debug.zip` file
+3. Extract and transfer the APK to your phone
+4. Install it (you may need to enable "unknown sources")
 
-## Wymagania
+## Requirements
 
-Android 7.0 lub nowszy
+Android 7.0 or later
 
-## Budowanie ze źródeł
+## Building from Source
 
-```
+```bash
 git clone https://github.com/mateuszglomb/Flappy-clone.git
 cd Flappy-clone
 ./gradlew assembleDebug
 ```
 
-APK pojawi się w `app/build/outputs/apk/debug/`
+The APK will be available at `app/build/outputs/apk/debug/`
 
-## Technologie
+## Technologies
 
 - Kotlin
 - Android SurfaceView
@@ -35,4 +35,4 @@ APK pojawi się w `app/build/outputs/apk/debug/`
 
 ---
 
-Projekt edukacyjny, kod otwarty.
+Educational project, open source.
